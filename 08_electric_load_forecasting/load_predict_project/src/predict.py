@@ -111,7 +111,6 @@ def pred_feature_extract(data_dict, time, logger):
     return feature_df
 
 
-
 # 3. 结果分析，绘制时间与预测负荷折线图，时间与真实负荷折线图
 def prediction_plot(data):
     """
@@ -149,11 +148,6 @@ def prediction_plot(data):
 
     # 3.9 显示图片
     plt.show()
-
-
-
-
-
 
 
 # 4. 测试

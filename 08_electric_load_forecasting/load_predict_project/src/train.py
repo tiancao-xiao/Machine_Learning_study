@@ -42,6 +42,7 @@ class PowerLoadModel:
         # data_preprocessing()函数是从utils.common模块中导入的一个函数，通常用于对原始数据进行预处理和清洗，以便后续的分析和建模工作。
         self.data_source = data_preprocessing(file_path)
 
+
 # 2. 查看数据的整体分布情况
 def ana_data(data):     # analysis: 分析
     """
